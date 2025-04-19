@@ -1,0 +1,45 @@
+/Java Classes/
+in java whatever you do, do it in Classes. 
+
+where to create class ?
+class can be created in the same file.
+eg:-
+
+// Designing the operations done using the Calculator Class.
+class calculator
+{
+	int x; 
+	// not using just showing that we can have variables outside the methods that is inside the class only.
+
+	public int add()
+	{		system.out.println("adding..")
+	int result = num1 + num2;
+	return result;
+	}
+}
+
+public class main()
+{
+	public static void main(String arg[])
+	{
+		int num1 = 4;
+		int num2 = 4;
+		calculator cacl = new calculator;
+		cacl.add(num1,num2); // using the cacl object you are calling the add method. 
+	}
+}
+
+
+
+
+
+
+note:- 
+java is a statically typed language..
+designing a class is not enough, you also need the Object
+
+think of class as Idea and Objects as Products, Objects as Physical Object.
+in the World of Programming we need a Virtual Object.
+Analogy --> Object = Instance.
+
+
